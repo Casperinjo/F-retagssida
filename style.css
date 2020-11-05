@@ -7,12 +7,10 @@ body {
   font-size: 16px;
 }
 
-
 .container {
   display: grid;
   grid-template-rows: 5rem 30px 1fr;
-  grid-template-columns:  80% 1fr;
-  
+  grid-template-columns: 10% 40% 1fr;
 }
 
 header {
@@ -52,41 +50,47 @@ header a {
 
 .bread {
   grid-row-start: 3;
-  grid-column-start: 1;
+  grid-column-start: 2;
+  margin-left: 2rem;
+  
 }
 
-.bread p{
+.bread p {
   width: 40%;
-  
+  margin-bottom: 2rem;
 }
 
 h1 {
   font-family: roboto, serif;
   color: greenyellow;
+  margin-top: 2rem;
 }
 
-#slideshow { 
-   
-  position: relative; 
-  width: 240px; 
-  height: 240px; 
-  padding: 10px; 
-  
+#slideshow {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  margin-left: 7rem;
 }
 
-#slideshow > div img{
+#slideshow > div img {
   width: 30em;
   height: auto;
 }
-  
 
-
-#slideshow > div { 
-  position: absolute; 
-  top: 10px; 
-  left: 10px; 
-  right: 10px; 
-  bottom: 10px; 
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
   display: flex;
   justify-content: center;
+}
+
+.Price{
+  grid-column-start:3;
+  grid-row-start:3 ;
+  
 }
