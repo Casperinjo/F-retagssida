@@ -56,7 +56,7 @@ header a {
 }
 
 .bread p {
-  width: 40%;
+  
   margin-bottom: 2rem;
 }
 
@@ -71,12 +71,13 @@ h1 {
   width: 240px;
   height: 240px;
   padding: 10px;
-  margin-left: 7rem;
+  
 }
 
 #slideshow > div img {
-  width: 30em;
-  height: auto;
+  width: 23em;
+  height: 15em;
+  
 }
 
 #slideshow > div {
@@ -85,12 +86,12 @@ h1 {
   left: 10px;
   right: 10px;
   bottom: 10px;
-  display: flex;
-  justify-content: center;
+  
 }
 
 .Price{
   grid-column-start:3;
   grid-row-start:3 ;
-  
+  margin-left: 5%;
+
 }
