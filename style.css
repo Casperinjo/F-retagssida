@@ -9,8 +9,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 5rem 30px 1fr;
-  grid-template-columns: 10% 40% 1fr;
+  grid-template-rows: 5rem 30px 30% ;
+  grid-template-columns: 10% 40% 1fr ;
 }
 
 header {
@@ -50,8 +50,15 @@ header a {
 
 .bread {
   grid-row-start: 3;
+  grid-row:span 2;
   grid-column-start: 2;
   margin-left: 2rem;
+  background-color: #eee;
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 2rem;
+  height: ;
 }
 
 .bread p {
@@ -60,7 +67,7 @@ header a {
 
 h1 {
   font-family: roboto, serif;
-  color: greenyellow;
+  color: rgb(107, 170, 12);
   margin-top: 2rem;
 }
 
@@ -87,7 +94,7 @@ h1 {
 .Price {
   grid-column-start: 3;
   grid-row-start: 3;
-  height: 40%;
+  height: 100%;
   margin: 2rem;
   padding: 2rem;
   background-color: #eee;
@@ -152,4 +159,49 @@ h1 {
   margin: 2rem;
   padding:2rem;
   width: 40%;
+}
+
+.customer{
+  grid-column:3/4;
+  grid-row: 4/5;
+  display: flex;
+  margin-top: 6rem;
+  
+  align-content: flex-end;
+}
+
+
+.customer img{
+  width: 4rem;
+  height: auto;
+}
+
+.customer-1{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  padding: 2rem;
+  margin: 2rem;
+  height: 50%;
+  width: 150%;
+  
+}
+.customer-2{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #eee;
+  height: 50%;
+  width: 150%;
+  
+}
+.customer-3{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #eee;
+  height: 50%;
+  width: 150%;
 }
