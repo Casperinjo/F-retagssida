@@ -30,7 +30,7 @@ header a {
   background-color: rgb(13, 91, 163);
   display: flex;
   justify-content: center;
-
+  height: auto;
   align-items: center;
   font-family: roboto, serif;
 }
@@ -52,11 +52,9 @@ header a {
   grid-row-start: 3;
   grid-column-start: 2;
   margin-left: 2rem;
-  
 }
 
 .bread p {
-  
   margin-bottom: 2rem;
 }
 
@@ -71,13 +69,11 @@ h1 {
   width: 240px;
   height: 240px;
   padding: 10px;
-  
 }
 
 #slideshow > div img {
   width: 23em;
   height: 15em;
-  
 }
 
 #slideshow > div {
@@ -86,12 +82,74 @@ h1 {
   left: 10px;
   right: 10px;
   bottom: 10px;
-  
 }
 
-.Price{
-  grid-column-start:3;
-  grid-row-start:3 ;
-  margin-left: 5%;
+.Price {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  height: 40%;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #eee;
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
+  border-radius: 10px;
+}
 
+.Price ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+.Price ul li {
+  display: block;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+.Price ul li:hover{
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
+}
+
+.bread-3{
+  grid-column: 2/4;
+  grid-row: 3;
+  margin-top:1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.Rekonditionerad{
+  background-color: #eee;
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 2rem;
+  width: 40%;
+}
+
+.Ny{
+  background-color: #eee;
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
+  border-radius: 10px;
+  margin: 2rem;
+  padding: 2rem;
+  width: 40%;
+}
+
+.Rebottlad{
+  background-color: #eee;
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  margin: 2rem;
+  padding:2rem;
+  width: 40%;
 }
