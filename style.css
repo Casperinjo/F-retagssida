@@ -9,8 +9,9 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 5rem 30px 30% ;
-  grid-template-columns: 10% 40% 1fr ;
+  grid-template-rows: 5rem 30px 30%;
+  grid-template-columns: 10% 40% 1fr;
+  
 }
 
 header {
@@ -21,6 +22,11 @@ header {
 header a {
   grid-column-start: 2;
   margin: 20px;
+}
+
+h2{
+  font-family: roboto, serfi;
+  color: rgb(174, 233, 87);
 }
 
 .navigation {
@@ -46,11 +52,12 @@ header a {
 
 .navigation a:hover {
   text-decoration: underline;
+  
 }
 
 .bread {
   grid-row-start: 3;
-  grid-row:span 2;
+  grid-row: span 2;
   grid-column-start: 2;
   margin-left: 2rem;
   background-color: #eee;
@@ -73,15 +80,14 @@ h1 {
 
 #slideshow {
   position: relative;
-  width: 240px;
-  height: 240px;
-  padding: 10px;
+  width: 100%;
+  height: auto;
+  
 }
 
 #slideshow > div img {
-  width: 23em;
-  height: 15em;
-
+  width: 100%;
+  
 }
 
 #slideshow > div {
@@ -120,22 +126,20 @@ h1 {
   font-family: Roboto, sans-serif;
 }
 
-.Price ul li:hover{
+.Price ul li:hover {
   box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
 }
 
-.bread-3{
+.bread-3 {
   grid-column: 2/4;
   grid-row: 3;
-  margin-top:1rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-
 }
-.Rekonditionerad{
+.Rekonditionerad {
   background-color: #eee;
   box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
   border-radius: 10px;
@@ -144,7 +148,7 @@ h1 {
   width: 40%;
 }
 
-.Ny{
+.Ny {
   background-color: #eee;
   box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
   border-radius: 10px;
@@ -153,31 +157,33 @@ h1 {
   width: 40%;
 }
 
-.Rebottlad{
+.Rebottlad {
   background-color: #eee;
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   margin: 2rem;
-  padding:2rem;
+  padding: 2rem;
   width: 40%;
 }
 
-.customer{
-  grid-column:3/4;
+
+
+
+.customer {
+  grid-column: 3/4;
   grid-row: 4/5;
   display: flex;
   margin-top: 6rem;
-  
-  align-content: flex-end;
+ 
+
 }
 
-
-.customer img{
+.customer img {
   width: 4rem;
   height: auto;
 }
 
-.customer-1{
+.customer-1 {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
@@ -185,9 +191,8 @@ h1 {
   margin: 2rem;
   height: 50%;
   width: 150%;
-  
 }
-.customer-2{
+.customer-2 {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   padding: 2rem;
@@ -195,9 +200,8 @@ h1 {
   background-color: #eee;
   height: 50%;
   width: 150%;
-  
 }
-.customer-3{
+.customer-3 {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   padding: 2rem;
@@ -207,13 +211,12 @@ h1 {
   width: 150%;
 }
 
-.bread-3 h2{
-  color:rgb(107, 170, 12);
+.bread-3 h2 {
+  color: rgb(107, 170, 12);
   margin: 1rem;
 }
 
-
-.start{
+.start {
   grid-column: 2/3;
   grid-row: 3/4;
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
@@ -225,7 +228,7 @@ h1 {
   padding: 2rem;
 }
 
-.lockning{
+.lockning {
   grid-column: 3;
   grid-row: 3;
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
@@ -241,41 +244,78 @@ h1 {
   grid-column: 2/4;
   grid-row: 4;
   width: 100rem;
-  
+
   margin-top: 6rem;
   padding: 2rem;
   display: flex;
   justify-content: center;
-  
-  
 }
-.lager{
+.lager {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
   width: 50%;
   padding: 2rem;
+  height: 70%;
+}
+
+.start img {
+  width: 20%;
+}
+.lockning img {
+  width: 20%;
+}
+.lager img {
+  width: 20%;
+}
+
+
+
+
+.container-2{
   
-}
+  display: grid;
+  grid-template-rows: 5rem 30px 45% 1fr;
+  grid-template-columns: 1fr 1fr;
+} 
 
-
-.start img{
-  width: 20%
-
+.ibc1{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  width: 80%;
+  margin:2rem;
+  padding:2rem;
 }
-.lockning img{
-  width: 20%
+.ibc2{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  grid-column:1/2;
+  grid-row: 4;
+  width: 80%;
+  margin:2rem;
+  padding:2rem;
 }
-.lager img{
-  width: 20%
+.ibc3{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  grid-column: 2;
+  grid-row: 3/4;
+  width: 80%; 
+  margin:2rem;
+  padding:2rem;
 }
-
-.start h2{
-  color:rgb(107, 170, 12) ;
-}
-.lockning h2{
-  color:rgb(107, 170, 12) ;
-}
-.lager h2{
-  color:rgb(107, 170, 12) ;
+.ibc4{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  grid-column: 2;
+  grid-row: 4;
+  width: 80%;
+  margin:2rem;
+  padding:2rem;
 }
