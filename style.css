@@ -81,6 +81,7 @@ h1 {
 #slideshow > div img {
   width: 23em;
   height: 15em;
+
 }
 
 #slideshow > div {
@@ -209,4 +210,72 @@ h1 {
 .bread-3 h2{
   color:rgb(107, 170, 12);
   margin: 1rem;
+}
+
+
+.start{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  width: 80%;
+  height: 100%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.lockning{
+  grid-column: 3;
+  grid-row: 3;
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  width: 80%;
+  height: 100%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.container-lager {
+  grid-column: 2/4;
+  grid-row: 4;
+  width: 100rem;
+  
+  margin-top: 6rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.lager{
+  box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
+  border-radius: 10px;
+  background-color: #eee;
+  width: 50%;
+  padding: 2rem;
+  
+}
+
+
+.start img{
+  width: 20%
+
+}
+.lockning img{
+  width: 20%
+}
+.lager img{
+  width: 20%
+}
+
+.start h2{
+  color:rgb(107, 170, 12) ;
+}
+.lockning h2{
+  color:rgb(107, 170, 12) ;
+}
+.lager h2{
+  color:rgb(107, 170, 12) ;
 }
