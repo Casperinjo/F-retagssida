@@ -174,7 +174,7 @@ h1 {
   grid-row: 4/5;
   display: flex;
   margin-top: 6rem;
- 
+  height:100% ;
 
 }
 
@@ -243,12 +243,11 @@ h1 {
 .container-lager {
   grid-column: 2/4;
   grid-row: 4;
-  width: 100rem;
-
+  width: 80%;
+  margin-left: 20%;
   margin-top: 6rem;
   padding: 2rem;
-  display: flex;
-  justify-content: center;
+  
 }
 .lager {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
