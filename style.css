@@ -11,47 +11,44 @@ body {
   display: grid;
   grid-template-rows: 5rem 30px 30%;
   grid-template-columns: 40% 1fr;
-  
 }
-@media screen and (min-width: 1400px){
-  .container, .container-2, .container-3, .container-4{
-
-    font-size: 24px;
+@media screen and (min-width: 1400px) {
+  .container,
+  .container-2,
+  .container-3,
+  .container-4 {
+    font-size: 32px;
   }
 
-  .navigation{
-    font-size:16px ;
+  .navigation {
+    font-size: 16px;
   }
 
-  #slideshow > div img{
+  #slideshow > div img {
     width: 70%;
     height: auto;
   }
 }
 
-@media screen and (max-width: 900px){
-  .container,  .container-2, .container-3, .container-4{
+@media screen and (max-width: 900px) {
+  .container,
+  .container-2,
+  .container-3,
+  .container-4 {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     font-size: 8px;
   }
-  
-  .navigation li{
+
+  .navigation li {
     display: table-column;
   }
 
-  img{
+  img {
     max-width: 40%;
     height: auto;
   }
-
-
-
 }
-
-
-
-
 
 header {
   grid-column-start: 1;
@@ -69,7 +66,7 @@ img {
 
 h2 {
   font-family: roboto, serfi;
-  color: rgb(66, 197, 14);
+  color: rgb(162, 204, 25);
 }
 
 .navigation {
@@ -115,7 +112,7 @@ h2 {
 
 h1 {
   font-family: roboto, serif;
-  color: rgb(66, 197, 14);
+  color: rgb(162, 204, 25);
   margin-top: 2rem;
 }
 
