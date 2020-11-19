@@ -7,15 +7,51 @@ body {
   font-size: 16px;
 }
 
-
-
-
 .container {
   display: grid;
   grid-template-rows: 5rem 30px 30%;
-  grid-template-columns:  40% 1fr;
+  grid-template-columns: 40% 1fr;
   
 }
+@media screen and (min-width: 1400px){
+  .container, .container-2, .container-3, .container-4{
+
+    font-size: 24px;
+  }
+
+  .navigation{
+    font-size:16px ;
+  }
+
+  #slideshow > div img{
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .container,  .container-2, .container-3, .container-4{
+    display: flex;
+    flex-direction: column;  
+    font-size: 8px;
+  }
+  
+  .navigation li{
+    display: table-column;
+  }
+
+  img{
+    max-width: 40%;
+    height: auto;
+  }
+
+
+
+}
+
+
+
+
 
 header {
   grid-column-start: 1;
@@ -27,13 +63,13 @@ header a {
   margin: 20px;
 }
 
-img{
+img {
   border-radius: 10px;
 }
 
-h2{
+h2 {
   font-family: roboto, serfi;
-  color: rgb(174, 233, 87);
+  color: rgb(66, 197, 14);
 }
 
 .navigation {
@@ -59,11 +95,9 @@ h2{
 
 .navigation a:hover {
   text-decoration: underline;
-  
 }
 
 .bread {
-  
   grid-row: 3 /4;
   grid-column: 1/2;
   margin-left: 2rem;
@@ -81,7 +115,7 @@ h2{
 
 h1 {
   font-family: roboto, serif;
-  color: rgb(107, 170, 12);
+  color: rgb(66, 197, 14);
   margin-top: 2rem;
 }
 
@@ -89,12 +123,11 @@ h1 {
   position: relative;
   width: 100%;
   height: auto;
-  
 }
 
 #slideshow > div img {
   width: 100%;
-  
+  height: auto;
 }
 
 #slideshow > div {
@@ -136,11 +169,10 @@ h1 {
 .Price ul li:hover {
   box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.2);
 }
-.Price label, ::placeholder{
-  font-family: roboto,serif;
+.Price label,
+::placeholder {
+  font-family: roboto, serif;
 }
-
-
 
 .bread-3 {
   grid-column: 2/4;
@@ -178,16 +210,12 @@ h1 {
   width: 40%;
 }
 
-
-
-
 .customer {
   grid-column: 3/4;
   grid-row: 4/5;
   display: flex;
-  
-  height: 50% ;
 
+  height: 50%;
 }
 
 .customer img {
@@ -252,7 +280,6 @@ h1 {
   padding: 2rem;
 }
 
-
 .lager {
   grid-column: 1/3;
   grid-row: 4;
@@ -276,121 +303,110 @@ h1 {
   width: 20%;
 }
 
-
-
-
-.container-2{
-  
+.container-2 {
   display: grid;
   grid-template-rows: 5rem 30px 45% 1fr;
   grid-template-columns: 1fr 1fr;
-} 
+}
 
-.ibc1{
+.ibc1 {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
   grid-column: 1/2;
   grid-row: 3/4;
   width: 80%;
-  margin:2rem;
-  padding:2rem;
+  margin: 2rem;
+  padding: 2rem;
 }
-.ibc2{
+.ibc2 {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
-  grid-column:1/2;
+  grid-column: 1/2;
   grid-row: 4;
   width: 80%;
-  margin:2rem;
-  padding:2rem;
+  margin: 2rem;
+  padding: 2rem;
 }
-.ibc3{
+.ibc3 {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
   grid-column: 2;
   grid-row: 3/4;
-  width: 80%; 
-  margin:2rem;
-  padding:2rem;
+  width: 80%;
+  margin: 2rem;
+  padding: 2rem;
 }
-.ibc4{
+.ibc4 {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
   grid-column: 2;
   grid-row: 4;
   width: 80%;
-  margin:2rem;
-  padding:2rem;
+  margin: 2rem;
+  padding: 2rem;
 }
 
-.container-3{
-  display:grid;
+.container-3 {
+  display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 5rem 30px 50%;
 }
 
-.container-4{
+.container-4 {
   display: grid;
- grid-template-columns: 50% 50%;
- grid-template-rows: 5rem 30px 100vh; ;
-
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 5rem 30px 100vh;
 }
 
-.container-work{
+.container-work {
   grid-column: 1/2;
   grid-row: 3/4;
 }
 
-
-.about-us{
+.about-us {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
-  margin:2rem;
+  margin: 2rem;
   padding: 2rem;
 }
 
-
-.anställda{
+.anställda {
   grid-column: 2/3;
   grid-row: 3;
-  
-  
-  font-family: roboto,serfi;
-} 
 
-.chef{
+  font-family: roboto, serfi;
+}
+
+.chef {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
-  margin:2rem;
+  margin: 2rem;
   padding: 2rem;
-  
-  
 }
 
-.produktionschef{
+.produktionschef {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
-  margin:2rem;
+  margin: 2rem;
   padding: 2rem;
 }
 
-.arbetschef{
+.arbetschef {
   box-shadow: 10px 10px 10px rgba(90, 59, 59, 0.2);
   border-radius: 10px;
   background-color: #eee;
-  margin:2rem;
+  margin: 2rem;
   padding: 2rem;
 }
 
-.anställda img{
+.anställda img {
   height: 20%;
   width: 10%;
- 
 }
