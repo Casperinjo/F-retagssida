@@ -12,12 +12,18 @@ body {
   grid-template-rows: 5rem 30px 30%;
   grid-template-columns: 40% 1fr;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
   .container,
   .container-2,
-  .container-3,
-  .container-4 {
+  .container-4,
+  .bread-3
+   {
+ 
     font-size: 32px;
+  }
+
+  .container-3{
+    font-size: 24px;
   }
 
   .navigation {
@@ -38,16 +44,17 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 8px;
+    
   }
 
-  .navigation li {
-    display: table-column;
-  }
+  
 
-  img {
-    max-width: 40%;
-    height: auto;
-  }
+    img {
+      max-width: 40%;
+      height: auto;
+    }
+
+  
 }
 
 header {
@@ -76,6 +83,7 @@ h2 {
   background-color: rgb(13, 91, 163);
   display: flex;
   justify-content: center;
+  
   height: auto;
   align-items: center;
   font-family: roboto, serif;
@@ -84,7 +92,7 @@ h2 {
 .navigation a {
   color: white;
   text-decoration: none;
-  margin: 7em;
+  margin: 7rem;
 }
 .navigation li {
   display: inline-block;
@@ -123,7 +131,7 @@ h1 {
 }
 
 #slideshow > div img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -287,7 +295,7 @@ h1 {
   margin: 2rem;
   margin-left: 25%;
   padding: 2rem;
-  height: 70%;
+  height: auto;
 }
 
 .start img {
